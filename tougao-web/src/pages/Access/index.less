@@ -1,0 +1,51 @@
+.parameter-container {
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    padding: 20px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-item-label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ant-input {
+    flex-grow: 1;
+    margin-right: 10px;
+    /* Adjust if needed */
+}
+
+
+.chart-container-acc {
+    width: 100%;
+    height: 400px;
+    /* 固定图表高度 */
+    position: relative;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* 调整图表 canvas 尺寸 */
+.chart-container-acc canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
